@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url('https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png');
+    background-size: cover;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 400px;
+    background-color: #42b3f5;
+    margin-left: 30px;
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.tetromino {
+    background-color: #42b3f5;
+}
+
+.currentPosition {
+    background-color: #42b3f5;
+}
+
+.mini-grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80px;
+    height: 80px;
+    background-color: #42b3f5;
+    margin-left: 60px;
+}
+
+
+.mini-grid div {
+    height: 20px;
+    width: 20px;
+}
+h1 {
+    margin-top: 50px;
+}
+button {
+    color: white;
+    background-color: lightblue;
+    border: none;
+}
